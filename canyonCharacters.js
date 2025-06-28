@@ -25,7 +25,7 @@ document.addEventListener('mousemove', (e) => {
         let maxOffset;
         
         if (eye.classList.contains('OldManLeftEye') || eye.classList.contains('OldManRightEye')) {
-            maxOffset = 5;
+            maxOffset = 3;
 
         } else {
             maxOffset = 15;        

@@ -1,89 +1,31 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content = "width=device-width, initial-scale=1.0">
-        <title>Canyon Characters</title>
-        <script defer src="canyonCharacters.js"></script>
-        <style>
-            body{
-                background-color: #ff6666;
-                justify-content: center;
-                padding: 0%;
-                margin: 0%;
-                height: 100vh;
-            }
-            main {
-                padding: 0%;
-                width: 100vw;
-                height: 100vh;
-                display: grid;
-                place-items: center;
-                position: relative;
 
-            }
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Canyon Characters</title>
+    <link rel="stylesheet" href="style.css">
+    <script defer src="canyonCharacters.js"></script>
 
-            .MelvinLeftEye {
-                position: relative !important;
-                z-index: -1;
-                left: -98px;
-                top: 770px;
+</head>
 
-            }
-
-            .MelvinRightEye {
-                position: relative !important;
-                z-index: -1;
-                left: -72px;
-                top: 770px;
-            }
-
-            .OldManLeftEye {
-                position: relative !important;
-                z-index: -1;
-                left: 28px;
-                top: 261px;
-            }
-
-            .OldManRightEye {
-                position: relative !important;
-                z-index: -1;
-                top: 259px; 
-                left: 19px; 
-            }
-
-            #titleImage {
-                position: relative;
-                max-width: 500px;
-                filter: drop-shadow(0px 11px 5px #000000);
-                z-index: 2;
-                top: 200px;
-            }
-
-            .SiteImage {
-                margin-top: 0%;
-                width: 100%;
-                z-index: 2;
-            }
+<body id="theBody">
+    <main>
+        <div id="titleImage">
+            <img class="SiteImage" src="images/MeatLogoEditedd.png">
+        </div>
+        <div id="eyes">
+            <img class="MelvinLeftEye" src="images/MelvinLeftEye.png">
+            <img class="MelvinRightEye" src="images/MelvinRightEye.png">
+            <img class="OldManLeftEye" src="images/OldManLeftEye.png">
+            <img class="OldManRightEye" src="images/OldManRightEye.png">
+        </div>
+        <img id="anchor" src="images/MelvinPhoto.png">
+    </main>
 
 
-        </style>
-    </head>
-    <body id="theBody">
-        <main>
-            <div id="titleImage">
-                <img class="SiteImage" src="images/MeatLogoEditedd.png">
-            </div>
-            <div id="eyes">
-                <img class="MelvinLeftEye" src="images/MelvinLeftEye.png" >
-                <img class="MelvinRightEye" src="images/MelvinRightEye.png" >
-                <img class="OldManLeftEye" src="images/OldManLeftEye.png" >
-                <img class="OldManRightEye" src="images/OldManRightEye.png" >
-            </div>
-            <img id="anchor" src="images/MelvinPhoto.png">
-        </main>
-        
+</body>
 
-    </body>
 </html>
